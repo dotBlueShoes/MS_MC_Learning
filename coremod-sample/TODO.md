@@ -1,0 +1,1 @@
+I've send a message to someone whu might know something or someone and this might get somewhere but as of for right now. The error is any coremod code does not seem to work. I am missing something, somethign is deprecated, or i might have to downgrade - it would be great if it would work on this version tho.

@@ -1,0 +1,14 @@
+[{
+  "modid": "${modid}",
+  "name": "CoreMod Sample",
+  "description": "Example mod.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["dotBlueShoes"],
+  "credits": "Creadits To all the people having their tutorials and github repositories. :)",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}]
