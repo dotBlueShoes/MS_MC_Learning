@@ -8,7 +8,7 @@
       "mainClass": "net.minecraftforge.legacydev.MainClient",
       "projectName": "coremod-sample",
       "cwd": "${workspaceFolder}\\run",
-      "vmArgs": "-Dforge.logging.console.level\u003ddebug -Dforge.logging.markers\u003dSCAN,REGISTRIES,REGISTRYDUMP -Dfml.coreMods.load\u003ddotblueshoes.coremod_sample.asm.FMLPlugin",
+      "vmArgs": "-Dforge.logging.console.level\u003ddebug -Dforge.logging.markers\u003dSCAN,REGISTRIES,REGISTRYDUMP",
       "args": "",
       "env": {
         "MCP_TO_SRG": "D:\\Storage\\Projects\\Api_Modding\\Minecraft\\Mods\\learning\\coremod-sample\\build\\createSrgToMcp\\output.srg",
