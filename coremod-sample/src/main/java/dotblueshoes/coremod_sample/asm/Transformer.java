@@ -6,6 +6,8 @@ import org.objectweb.asm.*;
 
 import org.apache.logging.log4j.LogManager;
 
+import java.util.Arrays;
+
 public class Transformer implements IClassTransformer {
 	
 	@Override
@@ -17,7 +19,7 @@ public class Transformer implements IClassTransformer {
 		ClassReader reader = new ClassReader(basicClass);
 
 		LogManager.getLogger().info("\n\tclass: " + reader.getClassName() + "\n\tsuper: " + reader.getSuperName()
-				+ "\n\tintefaces: " + reader.getInterfaces() + '\n');
+				+ "\n\tinterfaces: " + Arrays.toString(reader.getInterfaces()) + '\n');
 
 		if (reader.getSuperName().equals(blockLiquidPackage)) {
 			LogManager.getLogger().info("\n\tclass: " + reader.getClassName());
